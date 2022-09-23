@@ -2,6 +2,7 @@
 body {
     background-color: linen;
     }
+
 h1 {
    text-align: center;
 }
@@ -11,10 +12,24 @@ h2 {
     text-align: center;
 }
 
-li{
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li {
     background-color: bisque;
     padding: 5px;
-    border: 5px Solid rgb(233, 164, 164)
+    border: 5px Solid rgb(221, 100, 100)
+}
+
+ul {
+    margin: auto;
+    display: table
+}
+
+.piano {
+    background-color: rgb(201, 191, 197);
 }
 
 #first_picture {
@@ -25,7 +40,7 @@ li{
     padding: 3px;
 }
 
-#second_picture{
+#second_picture {
     width: 1000px;
     margin:auto;
     margin-top: 30px;
@@ -35,11 +50,3 @@ li{
     padding: 3px;
 }
 
-ul{
-    margin: auto;
-    display: table
-}
-
-.piano {
-    background-color: rgb(201, 191, 197);
-}
