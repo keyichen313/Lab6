@@ -3,7 +3,7 @@ function GreetingPrompt() {
     if (user != null) {
         alert("Greeting " + user + "!");
     }
-  }
+}
 function Choice(){
     var choice = prompt("Do you like Bach?");
     if (choice === "yes") {
@@ -13,7 +13,7 @@ function Choice(){
     }
 } 
 
-  function Welcome() {
+function Welcome() {
     alert ("Welcome to the Bach's page!")
-  }
+}
 
